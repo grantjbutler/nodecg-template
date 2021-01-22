@@ -18,7 +18,7 @@ const command = isProduction ? 'build' : 'watch';
                     console.log(`Forking build process for ${file.name}`)
                     
                     let args = [
-                        '--out-dir',
+                        '--dist-dir',
                         `./${directory}/${file.name}/`,
                         '--public-url',
                         '.'
@@ -42,7 +42,7 @@ rimraf('./extension', function() {
     fork('node_modules/.bin/parcel', [
         command,
         'src/extension/index.js',
-        '--out-dir',
+        '--dist-dir',
         'extension',
         '--public-url',
         '.',
