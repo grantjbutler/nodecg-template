@@ -113,3 +113,5 @@ temp/
 /graphics/
 /dashboard/
 /extension/
+
+.parcel-cache/
