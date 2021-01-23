@@ -114,4 +114,4 @@ temp/
 /dashboard/
 /extension/
 
-.parcel-cache/
+mix-manifest.json
