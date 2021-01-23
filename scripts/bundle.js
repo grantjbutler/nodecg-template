@@ -39,6 +39,10 @@ const command = isProduction ? 'build' : 'watch';
 })
 
 rimraf('./extension', function() {
+    if (!fs.existsSync('./src/extension/index.js')) {
+        return;
+    }
+    
     fork('node_modules/.bin/parcel', [
         command,
         'src/extension/index.js',
