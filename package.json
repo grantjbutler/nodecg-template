@@ -2,7 +2,6 @@
   "name": "nodecg-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "npx ava",
     "bundle": "node scripts/bundle.js",
