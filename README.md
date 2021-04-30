@@ -5,7 +5,7 @@ This is the template for how I create [nodecg](https://nodecg.com) bundles. This
 - vue
 - tailwind
 - ava
-- parcel
+- laravel mix
 
 ## General Structure
 
