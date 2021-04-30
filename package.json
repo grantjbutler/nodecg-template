@@ -4,8 +4,9 @@
   "description": "",
   "scripts": {
     "test": "npx ava",
-    "bundle": "node scripts/bundle.js",
-    "build": "NODE_ENV=production npm run bundle"
+    "bundle": "npx mix",
+    "build": "NODE_ENV=production npm run bundle",
+    "watch": "npx mix watch"
   },
   "author": "",
   "license": "ISC",
